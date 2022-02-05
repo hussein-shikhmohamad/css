@@ -1,0 +1,19 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<style>
+@media screen and (min-width: 769px) {
+ p{color:red;}
+}
+@media screen and (min-device-width: 481px) and (max-device-width: 768px) { 
+  p{color:green;}
+}
+@media only screen and (max-device-width: 480px) {
+ p{color:yellow;}
+}
+</style>
+</head>
+<body>
+<p>hussein shikh mohamad</p>
+</body>
+</html>
