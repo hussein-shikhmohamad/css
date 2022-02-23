@@ -3,13 +3,13 @@
 <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
 <style>
 @media screen and (min-width: 769px) {
- p{color:red;}
+ p{color:red;} <!--769هنا اكواد المقاس اصغرمن-->
 }
 @media screen and (min-device-width: 481px) and (max-device-width: 768px) { 
-  p{color:green;}
+  p{color:green;} <!--هنا اكواد المقاس بين 481و768-->
 }
 @media only screen and (max-device-width: 480px) {
- p{color:yellow;}
+ p{color:yellow;} <!--اكواد  المقاس480-->
 }
 </style>
 </head>
